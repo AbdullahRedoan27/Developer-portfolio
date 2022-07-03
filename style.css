@@ -44,6 +44,12 @@ h2{
     font-size: 5px;
     font-family: 'Lobster Two', cursive;
 }
+#have-faith{
+    background-image: url(images/gear@4x.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
 .hire-button{
     font-family:'Lobster Two', cursive;
     font-size: 20px;
