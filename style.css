@@ -2,7 +2,19 @@ h1{
     font-family:'Lobster Two', cursive;
     font-size: 55px;
 }
-h3{
-    font-size: 25px;
-    font-family:'Courgette', cursive;
+span{
+    color: rgb(25, 166, 147);
+}
+section{
+    display: flex;
+    padding-left: 45px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+}
+#image{
+    padding-left: 100px
 }
