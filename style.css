@@ -1,6 +1,9 @@
 body{
     margin: 0%;
 }
+.banner{
+    background-image: url(images/bg.png);
+}
 h1{
     font-family:'Lobster Two', cursive;
     font-size: 55px;
@@ -37,6 +40,7 @@ h2{
 #image{
     padding-left: 100px
 }
+
 #a{
     text-decoration: none;
     color: black;
@@ -60,19 +64,34 @@ h2{
     padding: 7px 11px;
     border-radius: 7px
 }
-.banner{
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;
+#section-3{
+    margin-left: 45px;
 }
-.borders{
-    width: 7px;
+#full-stack{
+    width: 40%;
     border-left: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-radius: 30px;
+    
     border-image: linear-gradient( #0f2027, #127462);
+    border-radius: 10px;
+    border-image-slice: 1;
+    padding: 20px;    
+}
+#baby{
+    width: 40%;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+    border-image: linear-gradient(#2a2a78, #1f668a);
+    border-radius: 10px;
     border-image-slice: 1;
     padding: 20px;
-    
+}
+#head {
+    color: #127462;
+}
+#head-2{
+    color: #1f668a;
 }
 .xp-panels{
     width: 40%;
@@ -81,6 +100,8 @@ h2{
     border-radius: 10px;
     text-align: justify;
     padding: 5px 15px 5px 15px;
-    box-shadow: 5px 5px 10px 5px #9b9b9b;
-    box-shadow-: 5px 5px 0px 5px #127462;
+    box-shadow: 5px 5px 10px 5px #9d9d9d;
+}
+footer p{
+    text-align: center;
 }
